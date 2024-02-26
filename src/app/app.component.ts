@@ -1,5 +1,11 @@
-import { Component } from '@angular/core';
+ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+
+//Components Imports
+import { InicioComponent } from './inicio/inicio.component';
+import { LoginComponent } from './login/login.component';
+import { MenuComponent } from './menu/menu.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 //Material Imports
 import {MatButtonModule} from '@angular/material/button';
@@ -16,13 +22,21 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     //General Imports
     RouterOutlet,
+
+    //AngularMaterial Imports
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+
+    //Components Imports
+    InicioComponent,
+    LoginComponent,
+    MenuComponent,
+    RodapeComponent
 
   ],
   templateUrl: './app.component.html',
