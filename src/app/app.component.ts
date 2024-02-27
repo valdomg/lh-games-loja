@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 
+
 //Material Imports
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
