@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-inicio',
@@ -21,7 +22,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatInputModule,
     MatMenuModule,
     MatToolbarModule,
-
+    MatGridListModule
   ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
